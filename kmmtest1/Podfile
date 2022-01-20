@@ -1,0 +1,5 @@
+target 'kmmtest1' do
+  use_frameworks!
+  platform :ios, '14.1'
+  pod 'kmmtest1_base', :path => '../kmmtest1_base'
+end

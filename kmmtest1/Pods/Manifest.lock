@@ -1,0 +1,16 @@
+PODS:
+  - kmmtest1_base (1.0)
+
+DEPENDENCIES:
+  - kmmtest1_base (from `../kmmtest1_base`)
+
+EXTERNAL SOURCES:
+  kmmtest1_base:
+    :path: "../kmmtest1_base"
+
+SPEC CHECKSUMS:
+  kmmtest1_base: f37c2e6ec060a325b25cbe60e34c7c438a9fadfa
+
+PODFILE CHECKSUM: 9872039687c10ca1ba24b5d3e3b1aa9979f79451
+
+COCOAPODS: 1.10.1
