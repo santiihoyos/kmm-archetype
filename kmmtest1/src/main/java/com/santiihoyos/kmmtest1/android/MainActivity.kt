@@ -1,13 +1,9 @@
 package com.santiihoyos.kmmtest1.android
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.santiihoyos.kmmtest1.Greeting
 import android.widget.TextView
-
-fun greet(): String {
-    return Greeting().greeting()
-}
+import androidx.appcompat.app.AppCompatActivity
+import com.santiihoyos.kmmtest1.Greeting
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,6 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val tv: TextView = findViewById(R.id.text_view)
-        tv.text = greet()
+        tv.text = Greeting().saluda("Santiago")
     }
 }

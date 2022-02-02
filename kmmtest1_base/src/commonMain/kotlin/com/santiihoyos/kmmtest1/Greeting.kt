@@ -1,7 +1,8 @@
 package com.santiihoyos.kmmtest1
 
 class Greeting {
-    fun greeting(): String {
-        return "Hello, ${Platform().platform}!"
+
+    fun saluda(name: String): String {
+        return "Hello $name, you are using ${Platform().platform}!"
     }
 }

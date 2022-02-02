@@ -2,8 +2,6 @@ import SwiftUI
 import kmmtest1_base
 
 struct ContentView: View {
-    let greet = Greeting().greeting()
-    
     var body: some View {
         VStack {
             Text("Hola")
@@ -11,7 +9,7 @@ struct ContentView: View {
                 Text("1")
                 Text("3")
             }
-            Text(greet)
+            Text(Greeting().saluda(name: "Santiago"))
         }
     }
 }
@@ -36,7 +34,7 @@ struct LoginView : View {
                     trailing: 16
                 )
             )
-            Text("Introduce tus crendenciales:")
+            Text(Platform().platform)
             TextField("user", text: $username)
             TextField("password", text: $password)
         }.padding(
