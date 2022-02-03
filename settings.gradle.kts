@@ -7,5 +7,5 @@ pluginManagement {
 }
 
 rootProject.name = "KMMTest1"
-include(":kmmtest1")
-include(":kmmtest1_base")
+include(":app")
+include(":shared")
